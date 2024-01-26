@@ -1,0 +1,32 @@
+{
+    "connections0":[
+        {
+            "follower_id": 3158,
+            "followee_id": 3365
+        },
+        {
+            "follower_id": 3365,
+            "followee_id": 2280
+        }
+    ],
+    "connections1":[
+        {
+            "follower_id": 3158,
+            "followee_id": 3365
+        },
+        {
+            "follower_id": 3365,
+            "followee_id": 2280
+        }
+    ],
+    "connections2":[
+        {
+            "follower_id": 3158,
+            "followee_id": 3365
+        },
+        {
+            "follower_id": 3365,
+            "followee_id": 2280
+        }
+    ],
+}

@@ -1,0 +1,276 @@
+{
+	"users": [
+		{
+			"user_id": 2738,
+			"name": "박서석",
+			"col_no": "19",
+			"major": "목탁디자인학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 1390,
+			"name": "김지린",
+			"col_no": "09",
+			"major": "제삿상생산관리학부",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 1,
+					"minor": 1
+				}
+			}
+		},
+		{
+			"user_id": 1348,
+			"name": "최영린",
+			"col_no": "22",
+			"major": "십자가디자인전공",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 3404,
+			"name": "박민재",
+			"col_no": "21",
+			"major": "제삿상생산관리학부",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 1,
+					"minor": 2
+				}
+			}
+		},
+		{
+			"user_id": 2264,
+			"name": "김지린",
+			"col_no": "20",
+			"major": "목탁디자인학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 1,
+					"minor": 2
+				}
+			}
+		},
+		{
+			"user_id": 4450,
+			"name": "안지석",
+			"col_no": "19",
+			"major": "십자가디자인전공",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 2,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 2229,
+			"name": "문서석",
+			"col_no": "21",
+			"major": "십자가디자인전공",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 1,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 4075,
+			"name": "김선산",
+			"col_no": "21",
+			"major": "십자가디자인전공",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 1,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 4845,
+			"name": "정지린",
+			"col_no": "23",
+			"major": "천체계량학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 4744,
+			"name": "문융석",
+			"col_no": "19",
+			"major": "천체계량학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 1,
+					"minor": 1
+				}
+			}
+		},
+		{
+			"user_id": 2343,
+			"name": "최융석",
+			"col_no": "09",
+			"major": "목탁디자인학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 2,
+					"minor": 2
+				}
+			}
+		},
+		{
+			"user_id": 1681,
+			"name": "김지산",
+			"col_no": "22",
+			"major": "목탁디자인학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 3158,
+			"name": "문지재",
+			"col_no": "20",
+			"major": "천체계량학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 3365,
+			"name": "최래재",
+			"col_no": "20",
+			"major": "천체계량학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 1,
+					"minor": 0
+				}
+			}
+		},
+		{
+			"user_id": 2280,
+			"name": "이선재",
+			"col_no": "23",
+			"major": "천체계량학과",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 2,
+					"minor": 2
+				}
+			}
+		}
+	],
+	"connections0": [
+		{
+            "follower_id": 3158,
+            "followee_id": 3365
+        },
+        {
+            "follower_id": 3365,
+            "followee_id": 2280
+        }
+	],
+	"connections1": [
+		{
+            "follower_id": 3158,
+            "followee_id": 3365
+        },
+        {
+            "follower_id": 3365,
+            "followee_id": 2280
+        }
+	],
+	"connections2": [
+		{
+            "follower_id": 3158,
+            "followee_id": 3365
+        },
+        {
+            "follower_id": 3365,
+            "followee_id": 2280
+        }
+	],
+	"command": "0",
+	"day": 0
+}
