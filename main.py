@@ -69,37 +69,38 @@ for i in range(day, last_day):
             if followee in connections[i*2+1].keys():
                 connections[i*2+1].pop(followee)
 
-def random_assign(ob, yb, ob_flag, new_connections, follower, command, last_followee):
-    for i in range(len(ob) + len(yb)):
-        if ob_flag:
-            followee = random.choice(ob)
-            ob.remove(followee)
+
+def random_assign(OB, YB, OB_flag, new_connection, follower_assign, cmd, last_followee):
+    for i in range(len(OB) + len(YB)):
+        if OB_flag:
+            followee_assign = random.choice(ob)
+            ob.remove(followee_assign)
         else:
-            followee = random.choice(yb)
-            yb.remove(followee)
-        new_connections[follower.user_id] = followee.user_id
-        follower = followee
-        ob_flag = not ob_flag
+            followee_assign = random.choice(yb)
+            yb.remove(followee_assign)
+        new_connection[follower_assign.user_id] = followee_assign.user_id
+        follower_assign = followee_assign
+        OB_flag = not OB_flag
 
-    if command == "0":
-        new_connections[follower.user_id] = last_followee.user_id
+    if cmd == "0":
+        new_connection[follower_assign.user_id] = last_followee.user_id
 
-    return new_connections
+    return new_connection
 
 # 2. 참가자 분류
 # 3. 배정
+# 1일차일 때
 if day == 0:
-    # 1일차일 때
     pass
     # 2. 참가자 분류
     # 3. 배정
+# 2일차일 때
 elif day == 1:
-    # 2일차일 때
     pass
     # 2. 참가자 분류
     # 3. 배정
+# 3일차일 때
 else:
-    # 3일차일 때
     # 2. 참가자 분류
     followee_not_assigned = []
     follower_not_assigned = []
@@ -154,21 +155,6 @@ else:
 
         new_connections = random_assign(ob, yb, ob_flag, new_connections, follower, command, followee_random)
 
-        for i in range(len(ob) + len(yb)):
-            if ob_flag:
-                followee = random.choice(ob)
-                ob.remove(followee)
-            else:
-                followee = random.choice(yb)
-                yb.remove(followee)
-            new_connections[follower.user_id] = followee.user_id
-            follower = followee
-            ob_flag = not ob_flag
-
-        # 원배정인 경우에 cycle 만들기
-        if command == "0":
-            new_connections[follower.user_id] = followee_random.user_id
-
     # 반쪽 미배정인 사람들이 없는 경우
     else:
         # 배정이 필요하지 않은 경우
@@ -201,23 +187,6 @@ else:
             yb.remove(follower)
 
             new_connections = random_assign(ob, yb, ob_flag, new_connections, follower, command, follower)
-
-            if command == "0":
-                first_follower = follower
-
-            for i in range(len(ob) + len(yb)):
-                if ob_flag:
-                    followee = random.choice(ob)
-                    ob.remove(followee)
-                else:
-                    followee = random.choice(yb)
-                    yb.remove(followee)
-                new_connections[follower.user_id] = followee.user_id
-                follower = followee
-                ob_flag = not ob_flag
-
-            if command == "0":
-                new_connections[follower.user_id] = first_follower.user_id
 
 for connection in new_connections:
     print(connection, new_connections[connection])
