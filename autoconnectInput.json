@@ -23,11 +23,59 @@
 			"major": "제삿상생산관리학부",
 			"schedule": {
 				"enter_at": {
+					"major": 2,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 1
+				}
+			}
+		},
+				{
+			"user_id": 1,
+			"name": "김지린",
+			"col_no": "18",
+			"major": "제삿상생산관리학부",
+			"schedule": {
+				"enter_at": {
+					"major": 2,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 1
+				}
+			}
+		},
+				{
+			"user_id": 2,
+			"name": "김지린",
+			"col_no": "14",
+			"major": "제삿상생산관리학부",
+			"schedule": {
+				"enter_at": {
+					"major": 2,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 1
+				}
+			}
+		},
+				{
+			"user_id": 3,
+			"name": "김지린",
+			"col_no": "20",
+			"major": "제삿상생산관리학부",
+			"schedule": {
+				"enter_at": {
 					"major": 0,
 					"minor": 0
 				},
 				"exit_at": {
-					"major": 1,
+					"major": 3,
 					"minor": 1
 				}
 			}
@@ -262,15 +310,7 @@
         }
 	],
 	"connections2": [
-		{
-            "follower_id": 3158,
-            "followee_id": 3365
-        },
-        {
-            "follower_id": 3365,
-            "followee_id": 2280
-        }
 	],
-	"command": "0",
-	"day": 0
+	"command": "1",
+	"day": 2
 }
