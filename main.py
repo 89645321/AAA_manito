@@ -1,5 +1,6 @@
 import json
 import random
+import sys
 
 
 class User:
@@ -19,7 +20,7 @@ new_connections_1 = {}
 new_connections_2 = {}
 
 # input json
-autoconnectInput = open("autoconnectInput.json")
+autoconnectInput = sys.stdin#open("autoconnectInput.json")
 json_object = json.load(autoconnectInput)
 
 for user in json_object["users"]:
@@ -375,6 +376,6 @@ out3 = out3[:-2]
 out3 = "\n\t\"connections2\":[\n" + out3 + "\n\t]\n}"
 json_out = out1 + out2 + out3
 
-f = open("autoconnectOutput.json", "w")
+f = sys.stdout
 f.write(json_out)
 f.close()
