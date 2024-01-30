@@ -20,7 +20,9 @@ new_connections_1 = {}
 new_connections_2 = {}
 
 # input json
-autoconnectInput = sys.stdin#open("autoconnectInput.json")
+# 디버깅을 위해 남김
+# autoconnectInput = sys.stdin
+autoconnectInput = open("autoconnectInput.json")
 json_object = json.load(autoconnectInput)
 
 for user in json_object["users"]:
@@ -185,7 +187,7 @@ def divide2(follower1, followee1, all1, follower2, followee2, all2, j):
             followee1.remove(fwee)
 
     for u in all1:
-        if u.user_id not in connections[j].keys() and u.user_id not in connections[j+1].keys():
+        if u.user_id not in connections[j].keys() and u.user_id not in connections[j+1].keys() and u.exit_at > j/2:
             all2.append(u)
 
     for u in all2:
@@ -220,6 +222,7 @@ if day == 0:
 
     follower_0_1, followee_0_1, all_0_1, follower_0_2, followee_0_2, all_0_2 = divide2(follower_0_1, followee_0_1, all_0_1, follower_0_2, followee_0_2, all_0_2, 2)
     follower_0_2, followee_0_2, all_0_2, follower_0_3, followee_0_3, all_0_3 = divide2(follower_0_2, followee_0_2, all_0_2, follower_0_3, followee_0_3, all_0_3, 4)
+
 
     # 3. 배정
     # 선 배정
@@ -376,6 +379,8 @@ out3 = out3[:-2]
 out3 = "\n\t\"connections2\":[\n" + out3 + "\n\t]\n}"
 json_out = out1 + out2 + out3
 
+# 디버깅을 위해 남김
+# f = open("autoconnectOutput.json", "w")
 f = sys.stdout
 f.write(json_out)
 f.close()
