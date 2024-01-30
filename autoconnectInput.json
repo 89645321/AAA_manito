@@ -1,392 +1,704 @@
 {
 	"users": [
-		{
-			"user_id": 8,
-			"col_no": "14",
-			"major": "전기정보공학부",
-			"name": "가유정",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 3,
-					"minor": 0
-				}
+			{
+					"user_id": 3140,
+					"col_no": "23",
+					"major": "제삿상생산관리학부",
+					"name": "강도린",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 3949,
+					"col_no": "19",
+					"major": "천체계량학과",
+					"name": "강래영",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 2
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 4434,
+					"col_no": "23",
+					"major": "천체계량학과",
+					"name": "최도혁",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 2
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 4750,
+					"col_no": "22",
+					"major": "십자가디자인전공",
+					"name": "문소린",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 2
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 1382,
+					"col_no": "21",
+					"major": "천체계량학과",
+					"name": "정래산",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 2
+							}
+					}
+			},
+			{
+					"user_id": 4960,
+					"col_no": "23",
+					"major": "십자가디자인전공",
+					"name": "강서우",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 1
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 2
+							}
+					}
+			},
+			{
+					"user_id": 1267,
+					"col_no": "21",
+					"major": "천체계량학과",
+					"name": "김지린",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 1
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 1843,
+					"col_no": "09",
+					"major": "천체계량학과",
+					"name": "정소재",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 1
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 3222,
+					"col_no": "09",
+					"major": "십자가디자인전공",
+					"name": "박선혁",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 2377,
+					"col_no": "20",
+					"major": "목탁디자인학과",
+					"name": "최도우",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 2
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 4116,
+					"col_no": "21",
+					"major": "제삿상생산관리학부",
+					"name": "최태영",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 1
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 1200,
+					"col_no": "23",
+					"major": "제삿상생산관리학부",
+					"name": "이서석",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 2
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 4691,
+					"col_no": "21",
+					"major": "목탁디자인학과",
+					"name": "정태우",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 1
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 1
+							}
+					}
+			},
+			{
+					"user_id": 4805,
+					"col_no": "19",
+					"major": "십자가디자인전공",
+					"name": "최소우",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 1
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 1889,
+					"col_no": "09",
+					"major": "목탁디자인학과",
+					"name": "강지석",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 1
+							}
+					}
+			},
+			{
+					"user_id": 4107,
+					"col_no": "09",
+					"major": "천체계량학과",
+					"name": "김소린",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 3615,
+					"col_no": "22",
+					"major": "천체계량학과",
+					"name": "정융산",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 2752,
+					"col_no": "09",
+					"major": "제삿상생산관리학부",
+					"name": "이민영",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 1976,
+					"col_no": "22",
+					"major": "목탁디자인학과",
+					"name": "안서산",
+					"schedule": {
+							"enter_at": {
+									"major": 1,
+									"minor": 2
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 1
+							}
+					}
+			},
+			{
+					"user_id": 1882,
+					"col_no": "22",
+					"major": "십자가디자인전공",
+					"name": "최민영",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 2
+							}
+					}
+			},
+			{
+					"user_id": 4309,
+					"col_no": "23",
+					"major": "천체계량학과",
+					"name": "정지재",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 2883,
+					"col_no": "20",
+					"major": "십자가디자인전공",
+					"name": "최래재",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 1
+							}
+					}
+			},
+			{
+					"user_id": 1602,
+					"col_no": "22",
+					"major": "천체계량학과",
+					"name": "안선린",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 1
+							}
+					}
+			},
+			{
+					"user_id": 4186,
+					"col_no": "21",
+					"major": "십자가디자인전공",
+					"name": "안영우",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 2446,
+					"col_no": "23",
+					"major": "목탁디자인학과",
+					"name": "박도우",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 2479,
+					"col_no": "20",
+					"major": "십자가디자인전공",
+					"name": "강융우",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 1
+							}
+					}
+			},
+			{
+					"user_id": 2913,
+					"col_no": "19",
+					"major": "천체계량학과",
+					"name": "김지혁",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 1
+							}
+					}
+			},
+			{
+					"user_id": 2550,
+					"col_no": "21",
+					"major": "제삿상생산관리학부",
+					"name": "문영혁",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 2
+							}
+					}
+			},
+			{
+					"user_id": 4070,
+					"col_no": "20",
+					"major": "십자가디자인전공",
+					"name": "김서석",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 2005,
+					"col_no": "09",
+					"major": "제삿상생산관리학부",
+					"name": "안영영",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 1822,
+					"col_no": "20",
+					"major": "제삿상생산관리학부",
+					"name": "김지린",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 3,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 4237,
+					"col_no": "21",
+					"major": "제삿상생산관리학부",
+					"name": "박영영",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 2921,
+					"col_no": "20",
+					"major": "천체계량학과",
+					"name": "김민혁",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 0
+							}
+					}
+			},
+			{
+					"user_id": 3075,
+					"col_no": "22",
+					"major": "목탁디자인학과",
+					"name": "정태재",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 1,
+									"minor": 2
+							}
+					}
+			},
+			{
+					"user_id": 1013,
+					"col_no": "22",
+					"major": "천체계량학과",
+					"name": "김지영",
+					"schedule": {
+							"enter_at": {
+									"major": 0,
+									"minor": 0
+							},
+							"exit_at": {
+									"major": 2,
+									"minor": 0
+							}
+					}
 			}
-		},
-		{
-			"user_id": 7,
-			"col_no": "14",
-			"major": "전기정보공학부",
-			"name": "가유정",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 3,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 1882,
-			"col_no": "22",
-			"major": "십자가디자인전공",
-			"name": "최민영",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 2,
-					"minor": 2
-				}
-			}
-		},
-		{
-			"user_id": 4309,
-			"col_no": "23",
-			"major": "천체계량학과",
-			"name": "정지재",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 2883,
-			"col_no": "20",
-			"major": "십자가디자인전공",
-			"name": "최래재",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 2,
-					"minor": 1
-				}
-			}
-		},
-		{
-			"user_id": 1602,
-			"col_no": "22",
-			"major": "천체계량학과",
-			"name": "안선린",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 1
-				}
-			}
-		},
-		{
-			"user_id": 4186,
-			"col_no": "21",
-			"major": "십자가디자인전공",
-			"name": "안영우",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 2446,
-			"col_no": "23",
-			"major": "목탁디자인학과",
-			"name": "박도우",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 3,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 2479,
-			"col_no": "20",
-			"major": "십자가디자인전공",
-			"name": "강융우",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 1
-				}
-			}
-		},
-		{
-			"user_id": 2913,
-			"col_no": "19",
-			"major": "천체계량학과",
-			"name": "김지혁",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 1
-				}
-			}
-		},
-		{
-			"user_id": 2550,
-			"col_no": "21",
-			"major": "제삿상생산관리학부",
-			"name": "문영혁",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 2,
-					"minor": 2
-				}
-			}
-		},
-		{
-			"user_id": 4070,
-			"col_no": "20",
-			"major": "십자가디자인전공",
-			"name": "김서석",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 2005,
-			"col_no": "09",
-			"major": "제삿상생산관리학부",
-			"name": "안영영",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 2,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 1822,
-			"col_no": "20",
-			"major": "제삿상생산관리학부",
-			"name": "김지린",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 3,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 4237,
-			"col_no": "21",
-			"major": "제삿상생산관리학부",
-			"name": "박영영",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 2921,
-			"col_no": "20",
-			"major": "천체계량학과",
-			"name": "김민혁",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 2,
-					"minor": 0
-				}
-			}
-		},
-		{
-			"user_id": 3075,
-			"col_no": "22",
-			"major": "목탁디자인학과",
-			"name": "정태재",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 1,
-					"minor": 2
-				}
-			}
-		},
-		{
-			"user_id": 1013,
-			"col_no": "22",
-			"major": "천체계량학과",
-			"name": "김지영",
-			"schedule": {
-				"enter_at": {
-					"major": 0,
-					"minor": 0
-				},
-				"exit_at": {
-					"major": 2,
-					"minor": 0
-				}
-			}
-		}
 	],
-	"connections0":[
-		{
-			"follower_id": 4237, 
-			"followee_id": 4186
-		},
-		{
-			"follower_id": 4186, 
-			"followee_id": 3075
-		},
-		{
-			"follower_id": 3075, 
-			"followee_id": 4070
-		},
-		{
-			"follower_id": 4070, 
-			"followee_id": 1602
-		},
-		{
-			"follower_id": 1602, 
-			"followee_id": 2479
-		},
-		{
-			"follower_id": 2479, 
-			"followee_id": 4309
-		},
-		{
-			"follower_id": 4309, 
-			"followee_id": 2913
-		},
-		{
-			"follower_id": 1013, 
-			"followee_id": 2005
-		},
-		{
-			"follower_id": 2005, 
-			"followee_id": 1882
-		},
-		{
-			"follower_id": 1882, 
-			"followee_id": 2883
-		},
-		{
-			"follower_id": 2883, 
-			"followee_id": 2550
-		},
-		{
-			"follower_id": 2550, 
-			"followee_id": 2921
-		},
-		{
-			"follower_id": 2446, 
-			"followee_id": 7
-		},
-		{
-			"follower_id": 7, 
-			"followee_id": 1822
-		}
+	"connections0": [
+			{
+					"follower_id": 1882,
+					"followee_id": 4309
+			},
+			{
+					"follower_id": 4309,
+					"followee_id": 2883
+			},
+			{
+					"follower_id": 2883,
+					"followee_id": 1602
+			},
+			{
+					"follower_id": 1602,
+					"followee_id": 4186
+			},
+			{
+					"follower_id": 4186,
+					"followee_id": 2446
+			},
+			{
+					"follower_id": 2446,
+					"followee_id": 2479
+			},
+			{
+					"follower_id": 2479,
+					"followee_id": 2913
+			},
+			{
+					"follower_id": 2913,
+					"followee_id": 2550
+			},
+			{
+					"follower_id": 2550,
+					"followee_id": 4070
+			},
+			{
+					"follower_id": 4070,
+					"followee_id": 2005
+			},
+			{
+					"follower_id": 2005,
+					"followee_id": 1822
+			},
+			{
+					"follower_id": 1822,
+					"followee_id": 4237
+			},
+			{
+					"follower_id": 4237,
+					"followee_id": 2921
+			},
+			{
+					"follower_id": 2921,
+					"followee_id": 3075
+			},
+			{
+					"follower_id": 3075,
+					"followee_id": 1013
+			},
+			{
+					"follower_id": 1013,
+					"followee_id": 1882
+			}
 	],
-	"connections1":[
-		{
-			"follower_id": 1013, 
-			"followee_id": 2005
-		},
-		{
-			"follower_id": 2005, 
-			"followee_id": 1882
-		},
-		{
-			"follower_id": 1882, 
-			"followee_id": 2883
-		},
-		{
-			"follower_id": 2883, 
-			"followee_id": 2550
-		},
-		{
-			"follower_id": 2550, 
-			"followee_id": 2921
-		},
-		{
-			"follower_id": 2446, 
-			"followee_id": 7
-		},
-		{
-			"follower_id": 7, 
-			"followee_id": 1822
-		}
+	"connections1": [
+			{
+					"follower_id": 1882,
+					"followee_id": 4309
+			},
+			{
+					"follower_id": 4309,
+					"followee_id": 2883
+			},
+			{
+					"follower_id": 2883,
+					"followee_id": 1602
+			},
+			{
+					"follower_id": 1602,
+					"followee_id": 4186
+			},
+			{
+					"follower_id": 4186,
+					"followee_id": 2446
+			},
+			{
+					"follower_id": 2446,
+					"followee_id": 2479
+			},
+			{
+					"follower_id": 2479,
+					"followee_id": 2913
+			},
+			{
+					"follower_id": 2913,
+					"followee_id": 2550
+			},
+			{
+					"follower_id": 2550,
+					"followee_id": 4070
+			},
+			{
+					"follower_id": 4070,
+					"followee_id": 2005
+			},
+			{
+					"follower_id": 2005,
+					"followee_id": 1822
+			},
+			{
+					"follower_id": 1822,
+					"followee_id": 4237
+			},
+			{
+					"follower_id": 4237,
+					"followee_id": 2921
+			},
+			{
+					"follower_id": 2921,
+					"followee_id": 3075
+			},
+			{
+					"follower_id": 3075,
+					"followee_id": 1013
+			},
+			{
+					"follower_id": 1013,
+					"followee_id": 1882
+			}
 	],
-	"connections2":[
-		{
-			"follower_id": 2446, 
-			"followee_id": 7
-		},
-		{
-			"follower_id": 7, 
-			"followee_id": 1822
-		}
+	"connections2": [
+			{
+					"follower_id": 1013,
+					"followee_id": 1882
+			}
 	],
 	"command": "1",
-	"day": 0
+	"day": 1
 }
