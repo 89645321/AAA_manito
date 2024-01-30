@@ -22,7 +22,7 @@ new_connections_2 = {}
 # input json
 # 디버깅을 위해 남김
 # autoconnectInput = sys.stdin
-autoconnectInput = open("autoconnectInput.json")
+autoconnectInput = sys.stdin
 json_object = json.load(autoconnectInput)
 
 for user in json_object["users"]:

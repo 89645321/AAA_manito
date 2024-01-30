@@ -1,6 +1,21 @@
 {
 	"users": [
-
+		{
+			"user_id": 8,
+			"col_no": "14",
+			"major": "전기정보공학부",
+			"name": "가유정",
+			"schedule": {
+				"enter_at": {
+					"major": 0,
+					"minor": 0
+				},
+				"exit_at": {
+					"major": 3,
+					"minor": 0
+				}
+			}
+		},
 		{
 			"user_id": 7,
 			"col_no": "14",
@@ -275,10 +290,102 @@
 		}
 	],
 	"connections0":[
+		{
+			"follower_id": 4237, 
+			"followee_id": 4186
+		},
+		{
+			"follower_id": 4186, 
+			"followee_id": 3075
+		},
+		{
+			"follower_id": 3075, 
+			"followee_id": 4070
+		},
+		{
+			"follower_id": 4070, 
+			"followee_id": 1602
+		},
+		{
+			"follower_id": 1602, 
+			"followee_id": 2479
+		},
+		{
+			"follower_id": 2479, 
+			"followee_id": 4309
+		},
+		{
+			"follower_id": 4309, 
+			"followee_id": 2913
+		},
+		{
+			"follower_id": 1013, 
+			"followee_id": 2005
+		},
+		{
+			"follower_id": 2005, 
+			"followee_id": 1882
+		},
+		{
+			"follower_id": 1882, 
+			"followee_id": 2883
+		},
+		{
+			"follower_id": 2883, 
+			"followee_id": 2550
+		},
+		{
+			"follower_id": 2550, 
+			"followee_id": 2921
+		},
+		{
+			"follower_id": 2446, 
+			"followee_id": 7
+		},
+		{
+			"follower_id": 7, 
+			"followee_id": 1822
+		}
 	],
 	"connections1":[
+		{
+			"follower_id": 1013, 
+			"followee_id": 2005
+		},
+		{
+			"follower_id": 2005, 
+			"followee_id": 1882
+		},
+		{
+			"follower_id": 1882, 
+			"followee_id": 2883
+		},
+		{
+			"follower_id": 2883, 
+			"followee_id": 2550
+		},
+		{
+			"follower_id": 2550, 
+			"followee_id": 2921
+		},
+		{
+			"follower_id": 2446, 
+			"followee_id": 7
+		},
+		{
+			"follower_id": 7, 
+			"followee_id": 1822
+		}
 	],
 	"connections2":[
+		{
+			"follower_id": 2446, 
+			"followee_id": 7
+		},
+		{
+			"follower_id": 7, 
+			"followee_id": 1822
+		}
 	],
 	"command": "1",
 	"day": 0

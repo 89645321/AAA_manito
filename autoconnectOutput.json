@@ -2,18 +2,18 @@
 	"connections0":[
 		{
 			"follower_id": 4237, 
-			"followee_id": 4070
-		},
-		{
-			"follower_id": 4070, 
-			"followee_id": 3075
-		},
-		{
-			"follower_id": 3075, 
 			"followee_id": 4186
 		},
 		{
 			"follower_id": 4186, 
+			"followee_id": 3075
+		},
+		{
+			"follower_id": 3075, 
+			"followee_id": 4070
+		},
+		{
+			"follower_id": 4070, 
 			"followee_id": 1602
 		},
 		{
@@ -38,15 +38,15 @@
 		},
 		{
 			"follower_id": 1882, 
-			"followee_id": 2921
+			"followee_id": 2883
 		},
 		{
-			"follower_id": 2921, 
+			"follower_id": 2883, 
 			"followee_id": 2550
 		},
 		{
 			"follower_id": 2550, 
-			"followee_id": 2883
+			"followee_id": 2921
 		},
 		{
 			"follower_id": 2446, 
@@ -55,6 +55,10 @@
 		{
 			"follower_id": 7, 
 			"followee_id": 1822
+		},
+		{
+			"follower_id": 1822, 
+			"followee_id": 8
 		}
 	],
 	"connections1":[
@@ -68,15 +72,15 @@
 		},
 		{
 			"follower_id": 1882, 
-			"followee_id": 2921
+			"followee_id": 2883
 		},
 		{
-			"follower_id": 2921, 
+			"follower_id": 2883, 
 			"followee_id": 2550
 		},
 		{
 			"follower_id": 2550, 
-			"followee_id": 2883
+			"followee_id": 2921
 		},
 		{
 			"follower_id": 2446, 
@@ -85,6 +89,10 @@
 		{
 			"follower_id": 7, 
 			"followee_id": 1822
+		},
+		{
+			"follower_id": 1822, 
+			"followee_id": 8
 		}
 	],
 	"connections2":[
@@ -95,6 +103,10 @@
 		{
 			"follower_id": 7, 
 			"followee_id": 1822
+		},
+		{
+			"follower_id": 1822, 
+			"followee_id": 8
 		}
 	]
 }
