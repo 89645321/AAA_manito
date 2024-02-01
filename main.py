@@ -21,8 +21,8 @@ new_connections_2 = {}
 
 # input json
 # 디버깅을 위해 남김
-# autoconnectInput = sys.stdin
-autoconnectInput = open("autoconnectInput.json")
+autoconnectInput = sys.stdin
+# autoconnectInput = open("autoconnectInput.json")
 json_object = json.load(autoconnectInput)
 
 for user in json_object["users"]:
@@ -166,7 +166,7 @@ def divide2(follower1, followee1, all1, follower2, followee2, all2, j):
         if fwer.user_id in connections[j].keys():
             fwee = connections[j][fwer.user_id]
             while True:
-                if fwee in connections[j].keys():
+                if fwee in connections[j].keys() and fwee != fwer.user_id:
                     fwee = connections[j][fwee]
                 else:
                     for u in users:
@@ -215,9 +215,7 @@ if day == 0:
     all_0_3 = []
 
     for user in users:
-        if user.exit_at < 1:
-            break
-        else:
+        if user.exit_at >= 1 and user.enter_at == 0:
             follower_0_1, followee_0_1, all_0_1 = divide1(follower_0_1, followee_0_1, all_0_1, 0, user)
 
     follower_0_1, followee_0_1, all_0_1, follower_0_2, followee_0_2, all_0_2 = divide2(follower_0_1, followee_0_1, all_0_1, follower_0_2, followee_0_2, all_0_2, 2)
@@ -307,9 +305,7 @@ elif day == 1:
     all_1_2 = []
 
     for user in users:
-        if user.exit_at < 2:
-            break
-        else:
+        if user.exit_at >= 2 and user.enter_at <= 1:
             follower_1_2, followee_1_2, all_1_2 = divide1(follower_1_2, followee_1_2, all_1_2, 2, user)
 
     follower_1_2, followee_1_2, all_1_2, follower_1_3, followee_1_3, all_1_3 = divide2(follower_1_2, followee_1_2, all_1_2, follower_1_3, followee_1_3, all_1_3, 4)
@@ -350,9 +346,8 @@ else:
     follower_2_3 = []
     all_2_3 = []
     for user in users:
-        if user.exit_at < 3:
-            break
-        follower_2_3, followee_2_3, all_2_3 = divide1(follower_2_3, followee_2_3, all_2_3, 4, user)
+        if user.exit_at == 3 and user.enter_at <= 2:
+            follower_2_3, followee_2_3, all_2_3 = divide1(follower_2_3, followee_2_3, all_2_3, 4, user)
 
     # 3. 배정
     new_connections_2 = assign(follower_2_3, followee_2_3, all_2_3, {})
