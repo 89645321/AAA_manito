@@ -10,7 +10,7 @@ class User:
         self.enter_at = enter_at
         self.exit_at = exit_at
 
-
+freshmen = 23
 last_day = 3
 users = []
 # 0: 0, 1: 0 reverse, 2: 1, 3: 1 reverse, 4: 2, 5: 2 reverse
@@ -21,12 +21,12 @@ new_connections_2 = {}
 
 # input json
 # 디버깅을 위해 남김
-autoconnectInput = sys.stdin
 # autoconnectInput = open("autoconnectInput.json")
+autoconnectInput = sys.stdin
 json_object = json.load(autoconnectInput)
 
 for user in json_object["users"]:
-    student_id = int(user.get("col_no"))
+    student_id = int(user.get("col_no")) if user.get("col_no") != "" else freshmen
     # student_id <= n에서 n은 올해 신입생 학번 이상 100 미만이어야 함
     if student_id <= 60:
         student_id += 100
